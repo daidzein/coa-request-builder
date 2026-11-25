@@ -1,0 +1,29 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+buildenv/
+.venv/
+venv/
+
+# PyInstaller & local build artifacts
+build/
+dist/
+*.ico
+*.cer
+*.sha256.txt
+build_freeze.txt
+
+# Local databases, logs, and secrets
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.env
+
+# Excluded scripts & branding assets
+anonymize_gui.py
+Anonymizer.spec
+foodex_logo*
+app_logo*

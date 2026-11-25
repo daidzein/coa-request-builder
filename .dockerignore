@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__
+buildenv
+.venv
+venv
+build
+dist
+data
+*.db
+anonymize_gui.py
+Anonymizer.spec
+foodex_logo*
+app_logo*
